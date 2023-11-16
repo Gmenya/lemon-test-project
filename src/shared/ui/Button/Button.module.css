@@ -1,0 +1,39 @@
+.button {
+  background-color: var(--main-green);
+  color: white;
+  width: fit-content;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-bold);
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.header-item-button {
+  display: flex;
+  justify-content: center;
+  margin: 0 5px;
+  align-items: center;
+  background-color: var(--background-color-item-button);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: var(--font-size-s);
+}
+
+.loginFormButtonHover:hover {
+  background-color: var(--hover-button);
+}
+
+.loginFormButtonHover:active {
+  background-color: var(--pressed-button);
+}
